@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "柴柴守門員",
+  "version": "1.0",
+  "description": "",
+  "icons": {
+    "16": "images/icon.png",
+    "32": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "libs/webcomponents-bundle.js",
+        "scripts/content.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
